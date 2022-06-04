@@ -1,0 +1,23 @@
+.card {
+  height: 500px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px dotted black;
+}
+
+.btn {
+  display: block;
+  background-color: rgb(238, 170, 98);
+  width: 90px;
+  height: 40px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: orangered;
+  font-size: 18px;
+}
